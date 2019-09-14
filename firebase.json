@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "**/.*",
+      "**/.circleci/**",
+      "**/node_modules/**",
+      "**/public/**",
+      "**/src/**",
+      "**/tests/**",
+      "firebase.json"
+    ],
+    "rewrites": [
+      {
+        "source": "*",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
